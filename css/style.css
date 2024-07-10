@@ -1,0 +1,32 @@
+.earth{
+    background-color: black;
+    color: rgb(49, 190, 49);
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.sun{
+    background-color: black;
+    color: rgb(229, 103, 44);
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.moon{
+    background-color: black;
+    color: rgb(195, 195, 54);
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.para{
+    background-color: rgb(160, 117, 200);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 15px;
+}
