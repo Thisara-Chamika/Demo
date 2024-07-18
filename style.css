@@ -1,4 +1,26 @@
-.earth{
+.card-text{
+    border-radius: 5px;
+    background-color: rgb(202, 202, 202);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 10px;
+}
+
+.card-body{
+    background-color: rgb(79, 79, 79);
+    border-bottom: 5px;
+}
+
+.card-title{
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/*.earth{
     background-color: black;
     color: rgb(49, 190, 49);
     text-align: center;
