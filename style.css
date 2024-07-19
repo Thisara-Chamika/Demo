@@ -1,21 +1,22 @@
-.card-text{
+.card-text {
     border-radius: 5px;
     background-color: rgb(202, 202, 202);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     padding: 10px;
+    font-style: italic;
 }
 
-.card-body{
+.card-body {
     background-color: rgb(79, 79, 79);
-    border-bottom: 5px;
+    border-radius: 5px;
+
 }
 
-.card-title{
+.card-title {
     background-color: aliceblue;
     border-radius: 5px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
