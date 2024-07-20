@@ -1,23 +1,16 @@
-/* .card-text { 
+.card-text { 
     border-radius: 5px;
-    background-color: rgb(202, 202, 202);
-    font-size: small;
-    padding: 10px;
-    font-style: italic;
-}
-
-.card-body {
-    background-color: rgb(79, 79, 79);
-    border-radius: 5px;
-
 }
 
 .card-title {
-    background-color: aliceblue;
+    background-color: rgb(149, 227, 151);
     border-radius: 5px;
     text-align: center;
     font-weight: 700;
-} */
+} 
+.card-text{
+    background-color: rgba(177, 230, 245, 0.769);
+}
 
 
 
