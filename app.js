@@ -56,19 +56,25 @@
 
 
 
-const customer = {
-    name:"Thisara",
-    age: 21,
-    address:"Rathnapura",
-    phone:"0779930534",
-    email:"thisara.com"
-}
+// const customer = {
+//     name:"Thisara",
+//     age: 21,
+//     address:"Rathnapura",
+//     phone:"0779930534",
+//     email:"thisara.com"
+// }
 
-console.log(customer.name);
-console.log(customer.age);
-console.log(customer.address);
-console.log(customer.phone);
-console.log(customer.email);
+// console.log(customer.name);
+// console.log(customer.age);
+// console.log(customer.address);
+// console.log(customer.phone);
+// console.log(customer.email);
 
+const customer =[];
 
+const numbers = [1,2,3,4,5,6,7,8,9];
+
+console.log(numbers);
+
+console.log(customer);
 
