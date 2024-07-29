@@ -183,15 +183,21 @@
 
 
 
-let numbers = [5,8,9,12,1,7,8,2,3,2]
+// let numbers = [5,8,9,12,1,7,8,2,3,2]
 
-let words = ["bggdf","fdsf","asdf","rrgb","csdf","dfdg","zxasd","vsd","po","re"]
+// let words = ["bggdf","fdsf","asdf","rrgb","csdf","dfdg","zxasd","vsd","po","re"]
 
-numbers.push(100);
-numbers.push(200);
+// numbers.push(100);
+// numbers.push(200);
 
-numbers.pop();
+// numbers.pop();
 
-console.log(numbers.sort());
+// console.log(numbers.sort());
 
-console.log(words.sort());
+// console.log(words.sort());
+
+document.write("Hello Thisara...");
+
+function btnClick(){
+    document.getElementById("h1").innerHTML="Chamika";
+}
