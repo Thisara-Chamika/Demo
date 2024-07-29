@@ -70,11 +70,43 @@
 // console.log(customer.phone);
 // console.log(customer.email);
 
-const customer =[];
 
-const numbers = [1,2,3,4,5,6,7,8,9];
+// const numbers = [1,2,3,4,5,6,7,8,9];
 
-console.log(numbers);
 
-console.log(customer);
 
+// for(let i =0; i < numbers.length; i++){
+//     console.log(numbers[i]);
+// }
+
+
+
+
+const customer = [
+    {
+        name: "Thisara",
+        age: 21,
+        address: "Rathnapura",
+        phone: "0779930534",
+        email: "thisara.com"
+    },
+    {
+        name: "Lavanda",
+        age: 18,
+        address: "Colombo",
+        phone: "0779930535",
+        email: "lavanda.com"
+    },
+    {
+        name: "Chamika",
+        age: 21,
+        address: "Rathnapura",
+        phone: "0779930834",
+        email: "chamika.com"
+    }
+];
+
+
+for (let i = 0; i < customer.length; i++) {
+    console.log(customer[i].name);
+}
