@@ -1,8 +1,8 @@
-let sum = 10+20;
+// let sum = 10+20;
 
-// + | - | * | / | %
+//  + | - | * | / | %
 
-console.log(sum);
+// console.log(sum);
 
 // Assignment Operations
 
@@ -14,12 +14,12 @@ console.log(sum);
 
 // ===
 
-let isEqual = (5 == '5');
+// let isEqual = (5 == '5');
 
-let isThisEqual = (5 === '5');
+// let isThisEqual = (5 === '5');
 
-console.log(isEqual);
-console.log(isThisEqual);
+// console.log(isEqual);
+// console.log(isThisEqual);
 
 //Logical Operations
 
@@ -53,5 +53,22 @@ console.log(isThisEqual);
 // age = 20;
 
 // console.log(age);
+
+
+
+const customer = {
+    name:"Thisara",
+    age: 21,
+    address:"Rathnapura",
+    phone:"0779930534",
+    email:"thisara.com"
+}
+
+console.log(customer.name);
+console.log(customer.age);
+console.log(customer.address);
+console.log(customer.phone);
+console.log(customer.email);
+
 
 
