@@ -82,31 +82,66 @@
 
 
 
-const customer = [
-    {
-        name: "Thisara",
-        age: 21,
-        address: "Rathnapura",
-        phone: "0779930534",
-        email: "thisara.com"
-    },
-    {
-        name: "Lavanda",
-        age: 18,
-        address: "Colombo",
-        phone: "0779930535",
-        email: "lavanda.com"
-    },
-    {
-        name: "Chamika",
-        age: 21,
-        address: "Rathnapura",
-        phone: "0779930834",
-        email: "chamika.com"
+// const customer = [
+//     {
+//         name: "Thisara",
+//         age: 21,
+//         address: "Rathnapura",
+//         phone: "0779930534",
+//         email: "thisara.com"
+//     },
+//     {
+//         name: "Lavanda",
+//         age: 18,
+//         address: "Colombo",
+//         phone: "0779930535",
+//         email: "lavanda.com"
+//     },
+//     {
+//         name: "Chamika",
+//         age: 21,
+//         address: "Rathnapura",
+//         phone: "0779930834",
+//         email: "chamika.com"
+//     }
+// ];
+
+
+// for (let i = 0; i < customer.length; i++) {
+//     console.log(customer[i].name);
+// }
+
+
+// function run(x,y){
+//     return x+y;
+// }
+
+// let sum = run(12,50);
+
+// console.log(sum);
+
+
+
+class customer{
+
+    constructor(name,age,address){
+        this.name=name;
+        this.age=age;
+        this.address=address;
+    
     }
-];
-
-
-for (let i = 0; i < customer.length; i++) {
-    console.log(customer[i].name);
+    setname(name){
+        this.name=name;
+    }
+    getname(name){
+        return this.name;
+    }
 }
+
+let Customer = new customer("saman",21,"Panadura");
+
+let Customer2 = new customer("kaman",20,"Panadura-South");
+
+console.log(Customer.getname());
+Customer2.setname("Somapala");
+console.log(Customer2);
