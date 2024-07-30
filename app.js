@@ -128,7 +128,7 @@
 //         this.name=name;
 //         this.age=age;
 //         this.address=address;
-    
+
 //     }
 //     setname(name){
 //         this.name=name;
@@ -175,7 +175,7 @@
 //             age:"30"
 //         }
 //     ]
-    
+
 //     for(let i = 0; i<customers.length; i++){
 //         console.log(customers[i].name +" | "+ customers[i].age);
 //         console.log();
@@ -196,8 +196,88 @@
 
 // console.log(words.sort());
 
-document.write("Hello Thisara...");
+//  document.write("Hello Thisara...");
+
+//  let name = "Nimal";
+
+// function btnClick(){
+//     document.getElementById("h1").innerHTML="Chamika";
+//     document.getElementById("sampleDiv").innerHTML=`<h1>${name}<h1>`; //interpolerations//
+// }
+
+
+
+let customers = [
+    {
+        name: "saman",
+        age: "12",
+        address: "Panadura"
+    },
+    {
+        name: "kamal",
+        age: "20",
+        address: "Colombo"
+    },
+    {
+        name: "vimal",
+        age: "32",
+        address: "Kaluthara"
+    },
+    {
+        name: "nimal",
+        age: "15",
+        address: "Negombo"
+    },
+    {
+        name: "sunil",
+        age: "50",
+        address: "Gampaha"
+    },
+    {
+        name: "ranil",
+        age: "30",
+        address: "Matara"
+    }
+]
+
+
 
 function btnClick(){
-    document.getElementById("h1").innerHTML="Chamika";
+    addcustomer();
+    loadTable();
+}
+
+function addcustomer(){
+   let name = document.getElementById("txtName").value;
+   let age = document.getElementById("txtAge").value;
+   let address = document.getElementById("txtAddress").value;
+
+   customers.push({
+    name,
+    age,
+    address
+   })
+}
+
+function loadTable(){
+    let tblCustomers = document.getElementById("tblCustomers");
+
+    let tableBody = `
+         <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+    `;
+    
+    customers.forEach(data => {
+        tableBody += `<tr>
+                        <td>${data.name}</td>
+                        <td>${data.age}</td>
+                        <td>${data.address}</td>
+                    </tr>`
+    });
+
+    console.log(tableBody);
+    tblCustomers.innerHTML=tableBody;
 }
